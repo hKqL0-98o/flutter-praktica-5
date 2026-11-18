@@ -48,7 +48,7 @@ class ProductCard extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(12),
             child: const Text(
-              'Беспроводные наушники',
+              'Ноутбук для работы и учёбы',
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
           ),
@@ -73,8 +73,8 @@ class ProductCard extends StatelessWidget {
             margin: const EdgeInsets.only(top: 8),
             padding: const EdgeInsets.all(12),
             child: const Text(
-              'Лёгкие накладные наушники с шумоподавлением, Bluetooth 5.3 '
-              'и временем работы до 30 часов от одного заряда.',
+              'Лёгкий ноутбук с 14-дюймовым экраном, процессором на 8 ядер '
+              'и батареей, которой хватает на целый учебный день.',
               style: TextStyle(fontSize: 16),
             ),
           ),
@@ -86,7 +86,7 @@ class ProductCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  '4 990 ₽',
+                  '59 990 ₽',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 Text('★ 4.8', style: TextStyle(fontSize: 18)),
